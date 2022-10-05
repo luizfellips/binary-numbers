@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container">
         <div class="form-box">
             <form action="index.php" method="POST">
                 <h1>Insert a binary number to convert to decimal: </h1>
@@ -36,6 +35,5 @@
                 
                 ?>
         </div>
-    </div>
 </body>
 </html>

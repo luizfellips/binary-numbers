@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container">
         <div class="form-box">
                 <h1>Insert a binary number to convert to decimal: </h1>
                 <input class="form-input" type="number" name="binary" id="binary" oninput="this.value = this.value.replace(/[2-9]/g,'')" placeholder="110111" required>
@@ -17,7 +16,6 @@
                 <h1 class='result' id="decimalResult">Result</h1>
                 </div>
         </div>
-    </div>
 </body>
 <script>
     function toDecimal() {
