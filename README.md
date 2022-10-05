@@ -1,3 +1,3 @@
 # Binary Number Converter
 A little project I made to exercise HTML, CSS and PHP.
-![image](https://user-images.githubusercontent.com/110192027/194130868-67475a70-05eb-4fc4-8633-46cd3195d263.png)
+![image](https://user-images.githubusercontent.com/110192027/194136308-aca349e3-a721-4998-aee5-01b254c7ef4b.png)
