@@ -29,7 +29,7 @@ body{
 .result{
     background: rgb(180,107,58);
     background: linear-gradient(30deg, rgba(180,107,58,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,0.5130427170868348) 78%);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     width: 180px;
     margin: auto;
     padding: 10px;
