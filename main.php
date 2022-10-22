@@ -25,8 +25,13 @@
         {
             $binaryString = strval($binary);
             $sum = 0;
+            $currentBit = 0;
+            $exponent = 1;
             for ($i = strlen((string)$binary) - 1; $i >= 0; $i--) {
-                $sum += $binaryString[$i] * pow(2, $i);
+                $currentBit = intval($binaryString[$i]);
+                $currentBit *= $exponent;
+                $sum += $currentBit;
+                $exponent *= 2;
             }
             return "<h1 class='result'>$sum</h1>";
         }

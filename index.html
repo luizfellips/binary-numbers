@@ -27,12 +27,18 @@
   </body>
   <script>
     function toDecimal() {
-      var binaryElement = document.getElementById("binary").value;
-      var sum = 0;
-      for (let i = binaryElement.length - 1; i >= 0; i--) {
-        sum += binaryElement[i] * Math.pow(2, i);
+      var binaryNumber = document.getElementById("binary").value;
+      binaryNumber = binaryNumber.toString();
+      let result = 0;
+      let exponent = 1;
+      let currentBit = 0;
+      for(let i = binaryNumber.length - 1; i>= 0; i--){
+        currentBit = parseInt(binaryNumber[i]);
+        currentBit *= exponent;
+        result += currentBit;
+        exponent *= 2;
       }
-      document.getElementById("decimalResult").innerHTML = sum;
+      document.getElementById("decimalResult").innerHTML = result;
     }
   </script>
 </html>
